@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.5.3)  9 JUL 2017 13:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.5.3)  9 JUL 2017 13:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1170,14 +1170,14 @@ File: t1fla.fd 2011/12/25 Fontinst v1.933 font definitions for T1/fla.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(28.45274pt, 312.98033pt, 256.0748pt)
-* v-part:(T,H,B)=(35.56593pt, 773.91498pt, 35.56593pt)
+* v-part:(T,H,B)=(14.22636pt, 795.25455pt, 35.56593pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=312.98033pt
-* \textheight=773.91498pt
+* \textheight=795.25455pt
 * \oddsidemargin=-43.81725pt
 * \evensidemargin=-43.81725pt
-* \topmargin=-73.70406pt
+* \topmargin=-95.04362pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -1297,10 +1297,6 @@ LaTeX Font Info:    Font shape `T1/fla/bx/n' in size <17.28> not available
 
 LaTeX Warning: Marginpar on page 1 moved.
 
-(./sections/languages.tex)
-
-LaTeX Warning: Marginpar on page 1 moved.
-
 (./sections/skills.tex)
 
 LaTeX Warning: Marginpar on page 1 moved.
@@ -1319,7 +1315,7 @@ LaTeX Font Warning: Font shape `OMS/fla/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
 (Font)              for symbol `textbullet' on input line 4.
 
-) (./sections/education.tex) [1
+) (./sections/education.tex) (./sections/languages.tex) [1
 
 {c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/migsdu
 .jpg>]
@@ -1341,13 +1337,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  27438 strings out of 493013
  529676 string characters out of 6136994
- 1011507 words of memory out of 5000000
+ 1003507 words of memory out of 5000000
  30514 multiletter control sequences out of 15000+600000
  81069 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,12n,87p,1151b,734s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2016/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc}
-{c:/texlive/2016/texmf-dist/fonts/enc/dvips/lato/lato-01.enc}{c:/texlive/2016/t
+{c:/texlive/2016/texmf-dist/fonts/enc/dvips/lato/lato-01.enc}{c:/texlive/2016
+/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc}{c:/texlive/2016/t
 exmf-dist/fonts/enc/dvips/lato/lato-02.enc}{c:/texlive/2016/texmf-dist/fonts/en
 c/dvips/fontawesome/fontawesometwo.enc}{c:/texlive/2016/texmf-dist/fonts/enc/dv
 ips/fontawesome/fontawesomeone.enc}<c:/texlive/2016/texmf-dist/fonts/type1/publ
@@ -1355,7 +1351,7 @@ ic/fontawesome/FontAwesome.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/l
 ato/Lato-Bol.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/lato/Lato-Reg.p
 fb><c:/texlive/2016/texmf-dist/fonts/type1/public/lato/Lato-RegIta.pfb><c:/texl
 ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on main.pdf (1 page, 98905 bytes).
+Output written on main.pdf (1 page, 99043 bytes).
 PDF statistics:
  59 PDF objects out of 1000 (max. 8388607)
  45 compressed objects within 1 object stream
