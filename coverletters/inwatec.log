@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.5.3)  9 JUL 2017 14:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.5.3)  9 JUL 2017 15:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./main.tex
-(./main.tex
+**./inwatec.tex
+(./inwatec.tex
 LaTeX2e <2017/01/01> patch level 3
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (./altacv.cls
@@ -1131,6 +1131,9 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip62
 )
+(c:/texlive/2016/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -1139,25 +1142,24 @@ File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
 \@quotelevel=\count315
 \@quotereset=\count316
- (./main.aux)
-\openout1 = `main.aux'.
+ (./inwatec.aux)
+\openout1 = `inwatec.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Try loading font information for T1+fla on input line 70.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Try loading font information for T1+fla on input line 73.
 (c:/texlive/2016/texmf-dist/tex/latex/lato/t1fla.fd
 File: t1fla.fd 2011/12/25 Fontinst v1.933 font definitions for T1/fla.
 )
@@ -1169,11 +1171,11 @@ File: t1fla.fd 2011/12/25 Fontinst v1.933 font definitions for T1/fla.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(28.45274pt, 312.98033pt, 256.0748pt)
+* h-part:(L,W,R)=(28.45274pt, 512.14963pt, 56.9055pt)
 * v-part:(T,H,B)=(14.22636pt, 795.25455pt, 35.56593pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=312.98033pt
+* \textwidth=512.14963pt
 * \textheight=795.25455pt
 * \oddsidemargin=-43.81725pt
 * \evensidemargin=-43.81725pt
@@ -1229,16 +1231,16 @@ ABD: EveryShipout initializing macros
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout7 = `main.bcf'.
+\openout7 = `inwatec.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' not found.
+Package biblatex Info: ... file 'inwatec.bbl' not found.
 
-No file main.bbl.
-Package biblatex Info: Reference section=0 on input line 70.
-Package biblatex Info: Reference segment=0 on input line 70.
+No file inwatec.bbl.
+Package biblatex Info: Reference section=0 on input line 73.
+Package biblatex Info: Reference segment=0 on input line 73.
 \AtBeginShipoutBox=\box50
-Package hyperref Info: Link coloring OFF on input line 70.
+Package hyperref Info: Link coloring OFF on input line 73.
 (c:/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1247,114 +1249,79 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count323
 )
-LaTeX Info: Redefining \ref on input line 70.
-LaTeX Info: Redefining \pageref on input line 70.
-LaTeX Info: Redefining \nameref on input line 70.
+LaTeX Info: Redefining \ref on input line 73.
+LaTeX Info: Redefining \pageref on input line 73.
+LaTeX Info: Redefining \nameref on input line 73.
 
-(./main.out) (./main.out)
+(./inwatec.out) (./inwatec.out)
 \@outlinefile=\write8
-\openout8 = `main.out'.
+\openout8 = `inwatec.out'.
 
 LaTeX Font Info:    Font shape `T1/fla/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/fla/b/n' tried instead on input line 91.
+(Font)              Font shape `T1/fla/b/n' tried instead on input line 94.
 LaTeX Font Info:    Font shape `T1/fla/bx/n' in size <12> not available
-(Font)              Font shape `T1/fla/b/n' tried instead on input line 91.
+(Font)              Font shape `T1/fla/b/n' tried instead on input line 94.
 LaTeX Font Info:    Font shape `T1/fla/bx/n' in size <8> not available
-(Font)              Font shape `T1/fla/b/n' tried instead on input line 91.
+(Font)              Font shape `T1/fla/b/n' tried instead on input line 94.
 LaTeX Font Info:    Try loading font information for U+fontawesomeone on input 
-line 91.
+line 94.
 
 (c:/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/22 Font definitions for U/fontawesomeone.
 )
 
 LaTeX Font Warning: Font shape `U/fontawesomeone/bx/n' undefined
-(Font)              using `U/fontawesomeone/m/n' instead on input line 91.
+(Font)              using `U/fontawesomeone/m/n' instead on input line 94.
 
 LaTeX Font Info:    Try loading font information for U+fontawesometwo on input 
-line 91.
+line 94.
 (c:/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
 
 LaTeX Font Warning: Font shape `U/fontawesometwo/bx/n' undefined
-(Font)              using `U/fontawesometwo/m/n' instead on input line 91.
+(Font)              using `U/fontawesometwo/m/n' instead on input line 94.
 
-LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <7> on input line 91.
-LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <5> on input line 91.
-<images/migsdu.jpg, id=7, 82.05656pt x 82.05656pt>
-File: images/migsdu.jpg Graphic file (type jpg)
- <use images/migsdu.jpg>
-Package pdftex.def Info: images/migsdu.jpg used on input line 91.
-(pdftex.def)             Requested size: 82.05635pt x 82.05635pt.
-
-(./sections/projects.tex
 LaTeX Font Info:    Font shape `T1/fla/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/fla/b/n' tried instead on input line 1.
-) (./sections/programminglanguages.tex)
+(Font)              Font shape `T1/fla/b/n' tried instead on input line 103.
+[1
 
-LaTeX Warning: Marginpar on page 1 moved.
+{c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
 
-(./sections/skills.tex)
-
-LaTeX Warning: Marginpar on page 1 moved.
-
-(./sections/recognitions.tex
-(c:/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomethree.fd))
-
-LaTeX Warning: Marginpar on page 1 moved.
-
-(./sections/experience.tex
-LaTeX Font Info:    Try loading font information for OMS+fla on input line 4.
-LaTeX Font Info:    No file OMSfla.fd. on input line 4.
-
-
-LaTeX Font Warning: Font shape `OMS/fla/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 4.
-
-) (./sections/education.tex) (./sections/languages.tex) [1
-
-{c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/migsdu
-.jpg>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 126.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 126.
- (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 126.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 126.
-Package rerunfilecheck Info: File `main.out' has not changed.
+(./inwatec.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 134.
+Package rerunfilecheck Info: File `inwatec.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package logreq Info: Writing requests to 'main.run.xml'.
-\openout1 = `main.run.xml'.
+Package logreq Info: Writing requests to 'inwatec.run.xml'.
+\openout1 = `inwatec.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27438 strings out of 493013
- 529676 string characters out of 6136994
- 1003507 words of memory out of 5000000
- 30514 multiletter control sequences out of 15000+600000
- 81069 words of font info for 64 fonts, out of 8000000 for 9000
+ 27351 strings out of 493013
+ 527698 string characters out of 6136994
+ 988795 words of memory out of 5000000
+ 30470 multiletter control sequences out of 15000+600000
+ 56064 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,12n,87p,1151b,734s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2016/texmf-dist/fonts/enc/dvips/lato/lato-01.enc}{c:/texlive/2016
-/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc}{c:/texlive/2016/t
-exmf-dist/fonts/enc/dvips/lato/lato-02.enc}{c:/texlive/2016/texmf-dist/fonts/en
-c/dvips/fontawesome/fontawesometwo.enc}{c:/texlive/2016/texmf-dist/fonts/enc/dv
-ips/fontawesome/fontawesomeone.enc}<c:/texlive/2016/texmf-dist/fonts/type1/publ
-ic/fontawesome/FontAwesome.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/l
-ato/Lato-Bol.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/lato/Lato-Reg.p
-fb><c:/texlive/2016/texmf-dist/fonts/type1/public/lato/Lato-RegIta.pfb><c:/texl
-ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on main.pdf (1 page, 99043 bytes).
+ 62i,5n,87p,1154b,698s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2016/texmf-dist/fonts/enc/dvips/lato/lato-02.enc}{c:/texlive/2016
+/texmf-dist/fonts/enc/dvips/lato/lato-01.enc}{c:/texlive/2016/texmf-dist/fonts/
+enc/dvips/fontawesome/fontawesometwo.enc}{c:/texlive/2016/texmf-dist/fonts/enc/
+dvips/fontawesome/fontawesomeone.enc}<c:/texlive/2016/texmf-dist/fonts/type1/pu
+blic/fontawesome/FontAwesome.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public
+/lato/Lato-Bol.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/lato/Lato-Reg
+.pfb>
+Output written on inwatec.pdf (1 page, 50831 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
+ 36 PDF objects out of 1000 (max. 8388607)
+ 29 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
