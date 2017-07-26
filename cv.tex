@@ -23,7 +23,7 @@
 %% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
 % \documentclass[10pt,a4paper,normalphoto]{altacv}
 
-\documentclass[10pt,a4paper]{altacv}
+\documentclass[12pt,a4paper]{altacv}
 
 %% AltaCV uses the fontawesome and academicon fonts
 %% and packages. 
@@ -96,25 +96,33 @@
 %% not need to align the top of the contents to any
 %% \cvsection title in the "main" bar.
 
-\marginpar{\vspace*{\dimexpr13pt-\baselineskip}\raggedright\input{sections/projects}}
+%\marginpar{\vspace*{\dimexpr13pt-\baselineskip}\raggedright\input{sections/projects}}
+
+\marginpar{\vspace*{\dimexpr13pt-\baselineskip}\raggedright\input{sections/education}}
 
 \marginpar{\vspace*{\dimexpr13pt-\baselineskip}\raggedright\input{sections/programminglanguages}}
 
-%\marginpar{\vspace*{\dimexpr13pt-\baselineskip}\raggedright\input{sections/languages}}
-
-\marginpar{\vspace*{\dimexpr13pt-\baselineskip}\raggedright\input{sections/skills}}
-
-\marginpar{\vspace*{\dimexpr13pt-\baselineskip}\raggedright\input{sections/recognitions}}
 
 
 \input{sections/experience}
 
-\input{sections/education}
+%\input{sections/education}
 
-\input{sections/languages}
+%\input{sections/languages}
 
 \clearpage
 
+\marginpar{\vspace*{\dimexpr13pt-\baselineskip}\raggedright\input{sections/languages}}
+
+\marginpar{\vspace*{\dimexpr13pt-\baselineskip}\raggedright\input{sections/skills}}
+
+\marginpar{\vspace*{\dimexpr13pt-\baselineskip}\raggedright\input{sections/interests}}
+
+\marginpar{\vspace*{\dimexpr13pt-\baselineskip}\raggedright\input{sections/recognitions}}
+
+
+
+\input{sections/projects}
 
 
 
